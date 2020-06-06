@@ -3,6 +3,8 @@ import { Link, NavLink } from "react-router-dom";
 import "./navbar.css";
 
 function Navbar(props) {
+  console.log("Props provided by React Router:");
+  console.log(props);
   return (
     <nav className="blue-grey darken-4">
       <div className="nav-wrapper">

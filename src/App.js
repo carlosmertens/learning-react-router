@@ -13,12 +13,22 @@ const Login = () => <h1>Log In</h1>;
 function App() {
   return (
     <Router>
-      <Navbar />
+      {/* In order to get the props from React Router, Component must be in a Route */}
+      {/* <Navbar/> */}
+      <Route path="/" component={Navbar} />
+
+      {/* When we use the render method in Route the props are called manually */}
       <Route
         exact
         path="/"
-        render={() => {
-          return <Home title="Welcome Home!" />;
+        render={(props) => {
+          return (
+            <Home
+              title="Welcome Home!"
+              history={props.history}
+              match={props.match}
+            />
+          );
         }}
       />
       <Route exact path="/host" component={Host} />

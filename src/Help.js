@@ -4,7 +4,11 @@ import { Route, Link } from "react-router-dom";
 const HelpCustomer = () => <h3>Help Customer</h3>;
 const HelpHost = () => <h3>Help Host</h3>;
 
-function Help() {
+function Help(props) {
+  console.log(props);
+  setTimeout(() => {
+    props.history.push("/");
+  }, 10000);
   return (
     <div>
       <h1>Need help?</h1>
