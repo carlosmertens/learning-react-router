@@ -2,7 +2,7 @@ import React from "react";
 
 function Login(props) {
   console.log(props);
-  props.history.block("Are you sure!");
+  // props.history.block("Are you sure!");
   return (
     <div>
       <h1>Log In</h1>;

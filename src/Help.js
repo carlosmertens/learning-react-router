@@ -13,8 +13,14 @@ function Help(props) {
     <div>
       <h1>Need help?</h1>
       <div>
-        <Link to="/help/customer">I am a customer</Link> |
-        <Link to="/help/host">I am a host</Link>
+        <ul>
+          <li>
+            <Link to="/help/customer">I am a customer</Link>
+          </li>
+          <li>
+            <Link to="/help/host">I am a host</Link>
+          </li>
+        </ul>
       </div>
 
       <Route path="/help/customer" component={HelpCustomer} />
