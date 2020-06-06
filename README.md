@@ -1,5 +1,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Learning React Router
+
+## Description
+
+Basic React Router learning. Create a AirBnB navbar clone with React Router capabilities. We install and import React Router. We use Router, Route, Link, NavLink. We unpack and use powerful props from React Router.
+
+#### Tutorial Instructor
+
+- **Robert Bunch** - _Code school instructor, software architect and engineer_
+
+## Author
+
+- **Carlos Mertens** - _Python/Machine Learning Developer | Mertens-Applications_
+
 ## Available Scripts
 
 In the project directory, you can run:
