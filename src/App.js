@@ -5,10 +5,10 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./navbar/Navbar";
 import Home from "./Home";
 import Help from "./Help";
+import Login from "./Login";
 
 const Host = () => <h1>Host</h1>;
 const SignUp = () => <h1>Sign Up</h1>;
-const Login = () => <h1>Log In</h1>;
 
 function App() {
   return (
